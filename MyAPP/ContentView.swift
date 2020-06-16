@@ -23,6 +23,22 @@ struct ContentView: View {
         }*/
         
     }
+    
+    /*var tabsView: some View {
+        TabView {
+            TabView1()
+                .tabItem({
+                    Image(systemName: "circle")
+                    Text("Notes")
+                }).tag(1)
+            
+            TabView2()
+                .tabItem({
+                    Image(systemName: "umbrella")
+                    Text("Weather")
+                }).tag(2)            
+        }
+    }*/
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -151,7 +167,8 @@ struct Home : View {
     }
 }
 
-class Host : UIHostingController<ContentView> {
+//class Host : UIHostingController<ContentView> {
+class Host : UIHostingController<AppView> {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }

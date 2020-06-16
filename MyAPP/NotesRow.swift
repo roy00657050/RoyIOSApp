@@ -6,6 +6,8 @@
 //  Copyright © 2020 Roy. All rights reserved.
 //
 
+// NO USE.
+
 import SwiftUI
 
 struct NotesRow: View {
