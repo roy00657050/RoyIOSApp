@@ -6,6 +6,7 @@ target 'MyAPP' do
   use_frameworks!
 
 pod "Firebase/Firestore"
+pod "SwiftyJSON", :git => "https://github.com/SwiftyJSON/SwiftyJSON.git"
 
   # Pods for MyAPP
 

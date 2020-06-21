@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6B6641583C8EDA6F797E6488 /* Pods_MyAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE38F559AA8A7B74CB8D141 /* Pods_MyAPP.framework */; };
+		B05523C2249FC98D00E04D6E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B05523C1249FC98D00E04D6E /* SDWebImageSwiftUI */; };
+		B05AAD3E249F83D2004BC8CA /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05AAD3D249F83D1004BC8CA /* WeatherView.swift */; };
 		B062B01F2497873F00EF15B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062B01E2497873F00EF15B8 /* AppDelegate.swift */; };
 		B062B0212497873F00EF15B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062B0202497873F00EF15B8 /* SceneDelegate.swift */; };
 		B062B0232497873F00EF15B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062B0222497873F00EF15B8 /* ContentView.swift */; };
@@ -16,15 +18,7 @@
 		B062B02B2497874300EF15B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B062B0292497874300EF15B8 /* LaunchScreen.storyboard */; };
 		B062B0362497874400EF15B8 /* MyAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062B0352497874400EF15B8 /* MyAPPTests.swift */; };
 		B062B0412497874400EF15B8 /* MyAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062B0402497874400EF15B8 /* MyAPPUITests.swift */; };
-		B062B04F24978B4C00EF15B8 /* NoteContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062B04E24978B4C00EF15B8 /* NoteContentView.swift */; };
-		B062B05324978D7F00EF15B8 /* NotesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062B05224978D7F00EF15B8 /* NotesList.swift */; };
-		B062B05524978D9000EF15B8 /* NotesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062B05424978D9000EF15B8 /* NotesRow.swift */; };
 		B062B05724979BF500EF15B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B062B05624979BF500EF15B8 /* GoogleService-Info.plist */; };
-		B0FD2F9C2499416A0035851B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD2F9B249941690035851B /* Weather.swift */; };
-		B0FD2F9E2499425A0035851B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD2F9D2499425A0035851B /* Data.swift */; };
-		B0FD2FA0249943840035851B /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD2F9F249943840035851B /* WeatherDetail.swift */; };
-		B0FD2FA2249944FA0035851B /* WeatherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD2FA1249944FA0035851B /* WeatherList.swift */; };
-		B0FD2FA4249946940035851B /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD2FA3249946940035851B /* WeatherRow.swift */; };
 		B0FD2FA624994AB70035851B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD2FA524994AB70035851B /* AppView.swift */; };
 		B234BFB29B967B10CC9E7257 /* Pods_MyAPP_MyAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E91C972AFABC0A031E89F9F /* Pods_MyAPP_MyAPPUITests.framework */; };
 		ED233A52EC4D48D365FFB9E6 /* Pods_MyAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7668BABA0E23DAD723E8E7B /* Pods_MyAPPTests.framework */; };
@@ -54,6 +48,7 @@
 		796192A6C7530880FC06482B /* Pods-MyAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAPP.release.xcconfig"; path = "Target Support Files/Pods-MyAPP/Pods-MyAPP.release.xcconfig"; sourceTree = "<group>"; };
 		957C663C0051DD928FC8E4CD /* Pods-MyAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-MyAPPTests/Pods-MyAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA650658B6BBC3FF29BAF62D /* Pods-MyAPP-MyAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAPP-MyAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-MyAPP-MyAPPUITests/Pods-MyAPP-MyAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B05AAD3D249F83D1004BC8CA /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		B062B01B2497873F00EF15B8 /* Your Stories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Stories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B062B01E2497873F00EF15B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B062B0202497873F00EF15B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,15 +63,7 @@
 		B062B03C2497874400EF15B8 /* MyAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B062B0402497874400EF15B8 /* MyAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPPUITests.swift; sourceTree = "<group>"; };
 		B062B0422497874400EF15B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B062B04E24978B4C00EF15B8 /* NoteContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteContentView.swift; sourceTree = "<group>"; };
-		B062B05224978D7F00EF15B8 /* NotesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesList.swift; sourceTree = "<group>"; };
-		B062B05424978D9000EF15B8 /* NotesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesRow.swift; sourceTree = "<group>"; };
 		B062B05624979BF500EF15B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B0FD2F9B249941690035851B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
-		B0FD2F9D2499425A0035851B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		B0FD2F9F249943840035851B /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
-		B0FD2FA1249944FA0035851B /* WeatherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherList.swift; sourceTree = "<group>"; };
-		B0FD2FA3249946940035851B /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		B0FD2FA524994AB70035851B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		C7668BABA0E23DAD723E8E7B /* Pods_MyAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE38F559AA8A7B74CB8D141 /* Pods_MyAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05523C2249FC98D00E04D6E /* SDWebImageSwiftUI in Frameworks */,
 				6B6641583C8EDA6F797E6488 /* Pods_MyAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,15 +145,8 @@
 				B062B0292497874300EF15B8 /* LaunchScreen.storyboard */,
 				B062B02C2497874300EF15B8 /* Info.plist */,
 				B062B0262497874300EF15B8 /* Preview Content */,
-				B062B04E24978B4C00EF15B8 /* NoteContentView.swift */,
-				B062B05224978D7F00EF15B8 /* NotesList.swift */,
-				B062B05424978D9000EF15B8 /* NotesRow.swift */,
-				B0FD2F9B249941690035851B /* Weather.swift */,
-				B0FD2F9D2499425A0035851B /* Data.swift */,
-				B0FD2F9F249943840035851B /* WeatherDetail.swift */,
-				B0FD2FA1249944FA0035851B /* WeatherList.swift */,
-				B0FD2FA3249946940035851B /* WeatherRow.swift */,
 				B0FD2FA524994AB70035851B /* AppView.swift */,
+				B05AAD3D249F83D1004BC8CA /* WeatherView.swift */,
 			);
 			path = MyAPP;
 			sourceTree = "<group>";
@@ -224,6 +205,9 @@
 			dependencies = (
 			);
 			name = MyAPP;
+			packageProductDependencies = (
+				B05523C1249FC98D00E04D6E /* SDWebImageSwiftUI */,
+			);
 			productName = MyAPP;
 			productReference = B062B01B2497873F00EF15B8 /* Your Stories.app */;
 			productType = "com.apple.product-type.application";
@@ -299,6 +283,9 @@
 				Base,
 			);
 			mainGroup = B062B0122497873F00EF15B8;
+			packageReferences = (
+				B05523C0249FC98D00E04D6E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = B062B01C2497873F00EF15B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -446,18 +433,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FD2FA4249946940035851B /* WeatherRow.swift in Sources */,
-				B062B05524978D9000EF15B8 /* NotesRow.swift in Sources */,
-				B062B05324978D7F00EF15B8 /* NotesList.swift in Sources */,
-				B062B04F24978B4C00EF15B8 /* NoteContentView.swift in Sources */,
 				B062B01F2497873F00EF15B8 /* AppDelegate.swift in Sources */,
+				B05AAD3E249F83D2004BC8CA /* WeatherView.swift in Sources */,
 				B062B0212497873F00EF15B8 /* SceneDelegate.swift in Sources */,
 				B062B0232497873F00EF15B8 /* ContentView.swift in Sources */,
-				B0FD2FA2249944FA0035851B /* WeatherList.swift in Sources */,
 				B0FD2FA624994AB70035851B /* AppView.swift in Sources */,
-				B0FD2FA0249943840035851B /* WeatherDetail.swift in Sources */,
-				B0FD2F9C2499416A0035851B /* Weather.swift in Sources */,
-				B0FD2F9E2499425A0035851B /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,6 +762,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B05523C0249FC98D00E04D6E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B05523C1249FC98D00E04D6E /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B05523C0249FC98D00E04D6E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B062B0132497873F00EF15B8 /* Project object */;
 }

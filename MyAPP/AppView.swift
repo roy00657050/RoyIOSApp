@@ -24,22 +24,14 @@ struct AppView: View {
             .tag(0)
             
             NavigationView {
-                WeatherList()
+                //WeatherList()
+                WeatherView()
             }
                 .tabItem {
                     Image(systemName: "cloud")
-                    Text("Date")
+                    Text("Weather")
             }
             .tag(1)
-            
-            NavigationView {
-                WeatherDetail(/*weather: selectedWeather*/)
-            }
-                .tabItem {
-                    Image(systemName: "sun.min")
-                    Text("Detail")
-            }
-            .tag(2)
         }
         .accentColor(.yellow)
     }

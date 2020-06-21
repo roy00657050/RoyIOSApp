@@ -56,5 +56,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Use location to check weather</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Use location to check weather</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Use location to check weather</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
